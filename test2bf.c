@@ -5,16 +5,14 @@
 
 int main()
 {
-        char *test;
+        char test[BUF];
         int word=0;
-        test=calloc(BUF,sizeof(int));
         scanf("%s",test);
         for(int i=0;i<strlen(test);i++)
         {
                 for(word=(int)test[i];word>0;word--) printf("+");
                 printf(".[-]\n");
         }
-        free(test);
 	printf("++++++++++.");
         return 0;
 }
