@@ -15,5 +15,6 @@ int main()
                 printf(".[-]\n");
         }
         free(test);
+	printf("++++++++++.");
         return 0;
 }
