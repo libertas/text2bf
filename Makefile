@@ -16,6 +16,5 @@ remove:$(INSTALL)
 
 clean:
 	rm test2bf.c test2bf
-	
 
 
